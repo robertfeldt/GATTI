@@ -10,9 +10,10 @@ Mozilla Firefox has used american fuzzy lop multiple times. [Here](https://bugzi
   - JavaScript engine: SpiderMonkey, C 
   - UI: Mostly XUL (a custom XML dialect), CSS, and JavaScript, with some C++.
 
-* **Q2.3. What kind of automated testing tools are used to test the sw/lib (including but possible more than YTT) and what are their key features?**
+* **Q2.3. What kind of automated testing tools are used to test the sw/lib (including but possible more than YTT) and what are their key features?** Mozilla uses multiple automated testing tools for different purposes as you can see [here](https://developer.mozilla.org/en-US/docs/Mozilla/QA/Automated_testing). They use various automated testing tools for linting and functional testing. Lint tests help to ensure better quality, less error-prone code by analysing the code with a linter. They use functional testing in order to test the JavaScript engine's implementation of the JavaScript language, that pages load without crashing, asserting, or leaking, moreover to test the accessibility interfaces and many others uses.
 
 * **Q2.4. Which features of the automated testing tools are currently used by the test suite?**
+
 
 * **Q2.5. Which features of the automated testing tools are NOT used by the test suite?**
 
