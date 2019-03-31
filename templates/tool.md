@@ -60,10 +60,10 @@ Apache License 2.0 / Free
 
 ## Usage examples
 There are multiple examples of tools that used the afl, as they are presented in the official afl site. Some instances are:
-*[iOS Kernel](https://support.apple.com/en-us/HT208331): about a security update
-*[Mozilla Firefox](https://lcamtuf.blogspot.com/2014/09/cve-2014-1564-uninitialized-memory-when.html): about an image parsing issue
-*[GnuPG](https://blog.fuzzing-project.org/2-Buffer-overflow-and-other-minor-issues-in-GnuPG-and-libksba-TFPA-0012014.html): about a buffer overflow issue
-*[Android](https://www.blackhat.com/docs/us-15/materials/us-15-Drake-Stagefright-Scary-Code-In-The-Heart-Of-Android.pdf): about an issue in the media server
+* [iOS Kernel](https://support.apple.com/en-us/HT208331): about a security update
+* [Mozilla Firefox](https://lcamtuf.blogspot.com/2014/09/cve-2014-1564-uninitialized-memory-when.html): about an image parsing issue
+* [GnuPG](https://blog.fuzzing-project.org/2-Buffer-overflow-and-other-minor-issues-in-GnuPG-and-libksba-TFPA-0012014.html): about a buffer overflow issue
+* [Android](https://www.blackhat.com/docs/us-15/materials/us-15-Drake-Stagefright-Scary-Code-In-The-Heart-Of-Android.pdf): about an issue in the media server
 
 ## Alternative tools
 * [0d1n](https://github.com/CoolerVoid/0d1n/)
