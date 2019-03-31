@@ -27,9 +27,13 @@ The fuzzed input can be fed to the tested program either via standard input or a
 * It's chainable to other tools
 * It sports a hip, retro-style UI
 
-
 ## Cons
-* only linux ?
+* Finds only crashes (typical of most fuzzers)
+* File input only
+* Linux/OSX only
+* Need to build target from sourse
+* Gets stuck on magic values
+* No native parallelisation
 
 ## Required information / models
 The program requires the user to provide a sample command that runs the tested application and at least one small example input file. 
@@ -50,15 +54,15 @@ Afl is known to work on Linux.
 ## Updates
 (Add: A sentence or two about how well the tool is updated/maintained)
 
-**Latest update:** (Add date for latest update of the tool)
-**First release date:** (Add date for first commit or release of the tool)
+**Latest update:** 2017-11-04
+**First release date:** 2013-11-12
 
 ## Licensing / Cost
 Apache License 2.0 / Free
 
 ## Tutorials and documentation
-*Tutorial: There is an afl-training available [here](https://github.com/ThalesIgnite/afl-training). The specific training contains extra material like presentation, video, link for afl-users mailing list, link for workshop and tutorial.
-*Documentation: The official documentation is available [here](http://lcamtuf.coredump.cx/afl/QuickStartGuide.txt)
+* Tutorial: There is an afl-training available [here](https://github.com/ThalesIgnite/afl-training). The specific training contains extra material like presentation, video, link for afl-users mailing list, link for workshop and tutorial.
+* Documentation: The official documentation is available [here](http://lcamtuf.coredump.cx/afl/QuickStartGuide.txt)
 
 ## Usage examples
 (Add: A few descriptions of how the tool has been used, ideally linking to libraries or software that actively is using the tool. Here you will also link to your "use case".)
