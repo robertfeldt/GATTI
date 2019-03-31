@@ -1,5 +1,5 @@
 # [AFL - American Fuzzy Lop](http://lcamtuf.coredump.cx/afl/)
-American fuzzy lop is a security-oriented [fuzzer](https://en.wikipedia.org/wiki/Fuzzing) that employs a novel type of compile-time instrumentation and genetic algorithms to automatically discover clean, interesting test cases that trigger new internal states in the targeted binary. The genetic algorithms aim to efficiently increase code coverage of the test cases. It helps with testing software to find unexpected results within applications.
+American fuzzy lop is a security-oriented [fuzzer](https://en.wikipedia.org/wiki/Fuzzing) that employs a novel type of compile-time instrumentation and genetic algorithms to automatically discover clean, interesting test cases that trigger new internal states in the targeted binary. The genetic algorithms aim to efficiently increase code coverage of the test cases. It helps testing software to find unexpected results within applications.
 
 **Testing Approach:** Fuzz testing
 **Testing Level:** Application testing
