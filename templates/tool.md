@@ -1,4 +1,4 @@
-# [ToolName](url_to_tool)
+# [AFL - American Fuzzy Loop](url_to_tool)
 (Add: Short introduction to your tool in 2-4 sentences)
 
 **Testing Approach:** (Add one sentence description of the main approach of the tool. Example: "Mutation testing")
