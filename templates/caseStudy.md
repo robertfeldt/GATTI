@@ -18,8 +18,8 @@ Mozilla Firefox has used american fuzzy lop multiple times. [Here](https://bugzi
 ## Part 3 
 Interview developers/testers of YTT
 
-* **Q3.1. Reach out to the developers of YTT and ask them about their reasons for developing YTT. Why this particular type of testing technology? Which situations is it good for and less good for?** Waiting for an answer
+* **Q3.1. Reach out to the developers of YTT and ask them about their reasons for developing YTT. Why this particular type of testing technology? Which situations is it good for and less good for?** Waiting for an answer. I sent an email to research_requests@mozilla.com :email:
 
-* **Q3.2 Ask them how mature they think YTT is? Is it suitable for use by companies developing real-world software at scale? Why / why not?** Waiting for an answer
+* **Q3.2 Ask them how mature they think YTT is? Is it suitable for use by companies developing real-world software at scale? Why / why not?** Waiting for an answer. I sent an email to research_requests@mozilla.com :email:
 
-* **Q3.3. Ask them how they plan to evolve and develop YTT going forward. What are the main improvements needed to take the tool to the next level?** Waiting for an answer
+* **Q3.3. Ask them how they plan to evolve and develop YTT going forward. What are the main improvements needed to take the tool to the next level?** Waiting for an answer. I sent an email to research_requests@mozilla.com :email:
