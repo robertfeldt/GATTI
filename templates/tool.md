@@ -43,7 +43,7 @@ The afl tool is written in C.
 
 The tool is confirmed to work on x86 Linux, OpenBSD, FreeBSD, and NetBSD, both 32- and 64-bit. It should also work on MacOS X and Solaris, although with some constraints. It supports programs written in C, C++, or Objective C, compiled with either gcc or clang. On Linux, the optional QEMU mode allows black-box binaries to be fuzzed, too.
 
-There are variants and derivatives of AFL that allow to fuzz Python, Go, Rust, OCaml, GCJ Java, kernel syscalls, or even entire VMs. There is also a closely inspired in-process fuzzer baked into LLVM and a a fork that runs on Windows. Finally, AFL is one of the fuzzing engines behind OSS-Fuzz.
+There are variants and derivatives of AFL that allow to fuzz Python, Go, Rust, OCaml, GCJ Java, kernel syscalls, or even entire VMs. There is also a closely inspired in-process fuzzer baked into LLVM and a fork that runs on Windows. Finally, AFL is one of the fuzzing engines behind OSS-Fuzz.
 
 **Dependencies:** 
 * Linux machine
