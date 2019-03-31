@@ -52,7 +52,7 @@ Afl is known to work on Linux.
 *Basic C and command line experience
 
 ## Updates
-(Add: A sentence or two about how well the tool is updated/maintained)
+For four years there was strong contribution activity but, the last commit is almost one and half year ago. Due to the fact that there are multiple uses of the specific tool I suppose that the tool reached in a very stable version.  
 
 **Latest update:** 2017-11-04
 **First release date:** 2013-11-12
@@ -66,6 +66,11 @@ Apache License 2.0 / Free
 
 ## Usage examples
 (Add: A few descriptions of how the tool has been used, ideally linking to libraries or software that actively is using the tool. Here you will also link to your "use case".)
+There are multiple examples of tools that used the afl, as they are presented in the official afl site. Some instances are:
+*[iOS Kernel](https://support.apple.com/en-us/HT208331): about a security update
+*[Mozilla Firefox](https://lcamtuf.blogspot.com/2014/09/cve-2014-1564-uninitialized-memory-when.html): about an image parsing issue
+*[GnuPG](https://blog.fuzzing-project.org/2-Buffer-overflow-and-other-minor-issues-in-GnuPG-and-libksba-TFPA-0012014.html): about a buffer overflow issue
+*[Android](https://www.blackhat.com/docs/us-15/materials/us-15-Drake-Stagefright-Scary-Code-In-The-Heart-Of-Android.pdf): about an issue in the media server
 
 ## Alternative tools
 * [0d1n](https://github.com/CoolerVoid/0d1n/)
