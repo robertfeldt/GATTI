@@ -43,7 +43,9 @@ Afl is known to work on Linux.
 ## Target platform and dependencies
 (Add: Description of the target platform, language, and/or environment that the tool assumes or targets.)
 
-**Dependencies:** (Add: List the main dependencies of the tool)
+**Dependencies:** 
+*Linux machine
+*Basic C and command line experience
 
 ## Updates
 (Add: A sentence or two about how well the tool is updated/maintained)
@@ -55,7 +57,8 @@ Afl is known to work on Linux.
 Apache License 2.0 / Free
 
 ## Tutorials and documentation
-(Add: Links to tutorials and documentation of the tool with one sentence description of each.)
+*Tutorial: There is an afl-training available [here](https://github.com/ThalesIgnite/afl-training). The specific training contains extra material like presentation, video, link for afl-users mailing list, link for workshop and tutorial.
+*Documentation: The official documentation is available [here](http://lcamtuf.coredump.cx/afl/QuickStartGuide.txt)
 
 ## Usage examples
 (Add: A few descriptions of how the tool has been used, ideally linking to libraries or software that actively is using the tool. Here you will also link to your "use case".)
