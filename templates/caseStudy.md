@@ -1,5 +1,6 @@
 ## Part 2 
 Case study: Find a software/lib that uses the testing tool
+
 Mozilla Firefox has used american fuzzy lop multiple times. [Here](https://bugzilla.mozilla.org/show_bug.cgi?id=1045977) is a bug example.
 
 * **Q2.1. What is the purpose of the sw/lib, i.e. what does it aim to do for users/developers?** Mozilla Firefox is a free and open-source web browser developed by The Mozilla Foundation and its subsidiary, Mozilla Corporation. 
