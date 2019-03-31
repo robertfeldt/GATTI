@@ -4,7 +4,10 @@ Mozilla Firefox has used american fuzzy lop multiple times. [Here](https://bugzi
 
 * **Q2.1. What is the purpose of the sw/lib, i.e. what does it aim to do for users/developers?** Mozilla Firefox is a free and open-source web browser developed by The Mozilla Foundation and its subsidiary, Mozilla Corporation. 
 
-* **Q2.2. What are the key technologies used to develop the lib?** Rendering engine: Gecko, C++ | JavaScript engine: SpiderMonkey, C | UI: Mostly XUL (a custom XML dialect), CSS, and JavaScript, with some C++.
+* **Q2.2. What are the key technologies used to develop the lib?** 
+- Rendering engine: Gecko, C++ 
+- JavaScript engine: SpiderMonkey, C 
+- UI: Mostly XUL (a custom XML dialect), CSS, and JavaScript, with some C++.
 
 * **Q2.3. What kind of automated testing tools are used to test the sw/lib (including but possible more than YTT) and what are their key features?**
 
