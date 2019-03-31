@@ -1,9 +1,9 @@
 # [AFL - American Fuzzy Lop](http://lcamtuf.coredump.cx/afl/)
-American fuzzy lop is a security-oriented [fuzzer](https://en.wikipedia.org/wiki/Fuzzing) that employs a novel type of compile-time instrumentation and genetic algorithms to automatically discover clean, interesting test cases that trigger new internal states in the targeted binary. The genetic algorithms aim to efficiently increase code coverage of the test cases.
+American fuzzy lop is a security-oriented [fuzzer](https://en.wikipedia.org/wiki/Fuzzing) that employs a novel type of compile-time instrumentation and genetic algorithms to automatically discover clean, interesting test cases that trigger new internal states in the targeted binary. The genetic algorithms aim to efficiently increase code coverage of the test cases. It helps with testing software to find unexpected results within applications.    afl is written in C.
 
 **Testing Approach:** Fuzz testing
-**Testing Level:** System testing
-**Target application domain:** TODO
+**Testing Level:** Application testing
+**Target application domain:** Application testing
 
 ## Features
 * Fuzzing engine: The fuzzing engine of american fuzzy lop uses several algorithms whose goal is to trigger unexpected behavior, including bit flips or replacing bytes of input file with various integers that can trigger edge cases.[13] Apart from that, it can generate test cases based on sample keywords, which helps during fuzzing of programs that employed text-based grammar, such as SQLite. Generated test cases that exercise different parts of the program's code can later be used as input for more specialized diagnostic programs. While performing the fuzzing, a hang can be detected when the process does not exit within the specified timeout and crash is assumed when a signal handler kills the process.
@@ -29,7 +29,7 @@ The fuzzed input can be fed to the tested program either via standard input or a
 
 
 ## Cons
-(Add: Bullet points describing the main drawbacks/cons of the tool, typically 3-5 bullets)
+* only linux ?
 
 ## Required information / models
 The program requires the user to provide a sample command that runs the tested application and at least one small example input file. 
@@ -38,6 +38,7 @@ After this initial phase, AFL begins the actual process of fuzzing by applying v
 
 In order to maximize the fuzzing performance, american fuzzy lop expects the tested program to be compiled with the aid of a utility program that instruments the code with helper functions which track control flow. This allows the fuzzer to detect when the target's behavior changes in response to the input. In cases when this is not possible, black-box testing is supported as well.
 
+Afl is known to work on Linux.
 
 ## Target platform and dependencies
 (Add: Description of the target platform, language, and/or environment that the tool assumes or targets.)
@@ -51,7 +52,7 @@ In order to maximize the fuzzing performance, american fuzzy lop expects the tes
 **First release date:** (Add date for first commit or release of the tool)
 
 ## Licensing / Cost
-(Add: A few sentences describing the license model or the costs of buying or using the tool)
+Apache License 2.0 / Free
 
 ## Tutorials and documentation
 (Add: Links to tutorials and documentation of the tool with one sentence description of each.)
@@ -60,4 +61,7 @@ In order to maximize the fuzzing performance, american fuzzy lop expects the tes
 (Add: A few descriptions of how the tool has been used, ideally linking to libraries or software that actively is using the tool. Here you will also link to your "use case".)
 
 ## Alternative tools
-(Add: Link to a few alternative but related/similar tools that one could use instead of this tool for example to do similar testing for another target domain, language or environment.)
+* [0d1n](https://github.com/CoolerVoid/0d1n/)
+* [Granota](https://github.com/valldrac/granota)
+* [boofuzz](https://github.com/jtpereyda/boofuzz)
+* [dirsearch](https://github.com/maurosoria/dirsearch)
