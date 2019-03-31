@@ -15,7 +15,7 @@ Mozilla Firefox has used american fuzzy lop multiple times. [Here](https://bugzi
 * **Q2.4. Which features of the automated testing tools are currently used by the test suite?**
 They use multiple tools as I mentioned before, so some references of the features are: from the SpiderMonkey automation tool they use the SpiderMonkey engine shell feature and using the Autophone tool they measure the performance and select Unit Tests on Android devices.
 
-* **Q2.5. Which features of the automated testing tools are NOT used by the test suite?**
+* **Q2.5. Which features of the automated testing tools are NOT used by the test suite?** Actually, I am not sure. There are some mentions of the features that they use but I don't think that is correct to suppose that if they do not mention a feature that means that they don't use it.
 
 ## Part 3 
 Interview developers/testers of YTT
