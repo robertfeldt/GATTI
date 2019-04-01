@@ -1,11 +1,9 @@
-# [Gauge](https://gauge.org/)
-(Add: Short introduction to your tool in 2-4 sentences)
+# Gauge
 
-**Testing Approach:** (Add one sentence description of the main approach of the tool. Example: "Mutation testing")
-**Testing Level:** (Add one sentence description of the main testing level for which the tool is intended. Example: "System testing (at the GUI level)")
-**Target application domain:** (Add one sentence description of the domain the testing tool targets. Example: "Web/GUI testing")
-
-Gauge is a free and open source test automation framework 
+The Gauge automated test framework is free and open-source, built as a modular suite for cross-platform testing.
+**Testing Approach:** It is built using a behavior driven approach to testing.
+**Testing Level:** It mainly targets the acceptance test level.
+**Target application domain:** 
 
 ## Features
 (Add: Bullet points describing the main features of your tool, typically 4-7 bullets)
@@ -41,3 +39,25 @@ Gauge is a free and open source test automation framework
 
 ## Alternative tools
 (Add: Link to a few alternative but related/similar tools that one could use instead of this tool for example to do similar testing for another target domain, language or environment.)
+
+## Part 2
+
+## Part 3
+
+I am currently doing an assignment in a course called "Model-driven 
+testing" and am writing about gauge in a very basic manner. I have some 
+questions I'd like to ask you, the team behind it:
+
+Q1. What are your reasons for developing Gauge in the first place and 
+why did you settle on the particular technology you're using for Gauge? 
+(Behaviour-driven testing or acceptance tests, using plugins etc)
+Q2. What situations are Gauge good for, and less suitable for?
+Q3. How mature do you think Gauge is as an automated testing tool? Is it 
+suitable for use by companies developing real-world software at scale? 
+Why / why not?
+Q4. How do you plan to evolve and develop Gauge going forward? What are 
+the main improvements needed to take the tool to the next level?
+
+Thank you for you time!
+
+https://gitter.im/getgauge/chat
