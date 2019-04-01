@@ -1,3 +1,7 @@
+## Part 2
+
+## Part 3
+
 I am currently doing an assignment in a course called "Model-driven 
 testing" and am writing about gauge in a very basic manner. I have some 
 questions I'd like to ask you, the team behind it:
