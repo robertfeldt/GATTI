@@ -1,3 +1,12 @@
+# Gauge
+
+The Gauge automated test framework is free and open-source, built as a modular suite for cross-platform testing.
+**Testing Approach:** It is built using a behavior driven approach to testing.
+**Testing Level:** It mainly targets the acceptance test level.
+**Target application domain:** 
+
+## Part 1
+
 ## Part 2
 
 ## Part 3
