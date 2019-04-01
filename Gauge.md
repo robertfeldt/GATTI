@@ -42,22 +42,24 @@ The Gauge automated test framework is free and open-source, built as a modular s
 
 ## Part 2
 
-## Part 3
+I am currently doing an assignment in a course called "Model-driven testing" and am writing about gauge in a very basic manner. I have some questions I'd like to ask you, the team behind it:
 
-I am currently doing an assignment in a course called "Model-driven 
-testing" and am writing about gauge in a very basic manner. I have some 
-questions I'd like to ask you, the team behind it:
+Q1. What are your reasons for developing Gauge in the first place and why did you settle on the particular technology you're using for Gauge? (Behaviour-driven testing or acceptance tests, using plugins etc)
 
-Q1. What are your reasons for developing Gauge in the first place and 
-why did you settle on the particular technology you're using for Gauge? 
-(Behaviour-driven testing or acceptance tests, using plugins etc)
+This test is now reusable but not very readable because a programming language like Java adds syntax and OOP design noise like Classes, Objects, Methods, Variables etc.
+It is often hard to use these patterns. It breaks the flow of writing tests because one needs to design first and and then write the test case.
+It is also counterproductive adding eleven lines of code to reuse two lines.
+
+Over time, teams over-engineer test suites with design opinions making it harder and harder to write new tests or maintain existing ones.
+We feel it’s important to minimize or eliminate this design process.
+
+
 Q2. What situations are Gauge good for, and less suitable for?
-Q3. How mature do you think Gauge is as an automated testing tool? Is it 
-suitable for use by companies developing real-world software at scale? 
-Why / why not?
-Q4. How do you plan to evolve and develop Gauge going forward? What are 
-the main improvements needed to take the tool to the next level?
+Q3. How mature do you think Gauge is as an automated testing tool? Is it suitable for use by companies developing real-world software at scale? Why / why not?
+Q4. How do you plan to evolve and develop Gauge going forward? What are the main improvements needed to take the tool to the next level?
 
 Thank you for you time!
 
+
 https://gitter.im/getgauge/chat
+https://gauge.org/2018/05/15/why-we-built-gauge/
