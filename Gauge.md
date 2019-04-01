@@ -13,3 +13,5 @@ Q4. How do you plan to evolve and develop Gauge going forward? What are
 the main improvements needed to take the tool to the next level?
 
 Thank you for you time!
+
+https://gitter.im/getgauge/chat
