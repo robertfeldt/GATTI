@@ -3,7 +3,7 @@ Hypothesis is a Python library for property-based testing developed by David R. 
 
 **Testing Approach:** "Property-based testing (specification testing)"
 **Testing Level:** "Unit testing (Class/Function level)"
-**Target application domain:** "Test software units written in Python"
+**Target application domain:** "python programms/libraries"
 
 ## Features
 (Add: Bullet points describing the main features of your tool, typically 4-7 bullets)
@@ -35,20 +35,24 @@ Hypothesis is a Python library for property-based testing developed by David R. 
 ## Target platform and dependencies
 Hypothesis is a platform independet (tested on OS X, Windows and Linux) tool for usage in Python programming environments.
 
-**Dependencies:** (Add: List the main dependencies of the tool)
+**Dependencies:** A version of CPython with upstream support, the Python library attrs and the Python library enum34 (enum34 required on Python 2.7)
 
 ## Updates
-(Add: A sentence or two about how well the tool is updated/maintained)
+Hypothesis releases since 1.0 are semantically versioned.
+Hypothesis gets updated frequently.Bugs get fixed on a best efford basis. Enhancements will be implemented against payment or can be implemented by oneself with support of the author.
 
-**Latest update:** 2019-03-31
+**Latest update:** 4.14.2 - 2019-03-31
 **First release date:** 2013-10-03
 
 ## Licensing / Cost
-(Add: A few sentences describing the license model or the costs of buying or using the tool)
+Open source
 
 ## Tutorials and documentation
 (Add: Links to tutorials and documentation of the tool with one sentence description of each.)
-
+Update policy:
+https://hypothesis.readthedocs.io/en/latest/changes.html
+Dependecies:
+https://hypothesis.readthedocs.io/en/latest/packaging.html
 ## Usage examples
 (Add: A few descriptions of how the tool has been used, ideally linking to libraries or software that actively is using the tool. Here you will also link to your "use case".)
 
