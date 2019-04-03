@@ -32,7 +32,7 @@ Hypothesis is a black-box testing tool. So the tester doesn't has to have any kn
 ## Target platform and dependencies
 Hypothesis is a platform independet tool (tested on OS X, Windows and Linux) for usage in Python programming environments.
 
-**Dependencies:** A version of CPython with upstream support, the Python library attrs and the Python library enum34 (enum34 required on Python 2.7)
+**Dependencies:** A version of CPython with upstream support, the Python library attrs and the Python library enum34 (enum34 required on Python 2.7). Dependencies can be found [here](https://hypothesis.readthedocs.io/en/latest/packaging.html) 
 
 ## Updates
 Hypothesis releases since 1.0 are semantically versioned.
@@ -45,30 +45,20 @@ Hypothesis gets updated frequently. Bugs get fixed on a best efford basis. Enhan
 It's an open source library (Mozilla Public License 2.0).
 
 ## Tutorials and documentation
-Documentation:
-https://hypothesis.readthedocs.io/en/latest/index.html
+Hypothesis [documentation](https://hypothesis.readthedocs.io/en/latest/index.html)
 
-Hypothesis repository on GitHub:
-https://github.com/HypothesisWorks
+Hypothesis [repository on GitHub](https://github.com/HypothesisWorks)
 
-Getting started with Hypothesis:
-https://hypothesis.works/articles/getting-started-with-hypothesis/
+[Getting started](https://hypothesis.works/articles/getting-started-with-hypothesis/) with Hypothesis
 
-Update policy:
-https://hypothesis.readthedocs.io/en/latest/changes.html
-
-Dependecies:
-https://hypothesis.readthedocs.io/en/latest/packaging.html
-
-YouTube talk about property-based testing with Hypothesis by Jeremy Thurgood.
-https://www.youtube.com/watch?v=mg5BeeYGjY0
+[YouTube talk](https://www.youtube.com/watch?v=mg5BeeYGjY0) about property-based testing with Hypothesis by Jeremy Thurgood
 
 ## Usage examples
-(Add: A few descriptions of how the tool has been used, ideally linking to libraries or software that actively is using the tool. Here you will also link to your "use case".)
+  - How the tool has been used in a lot of [open source projects](https://hypothesis.readthedocs.io/en/latest/usage.html)
+  - An example is the [cryptography library](https://cryptography.io/en/latest/) for python (see also the case study)
 
 ## Alternative tools
-Link to a list of model-based testing tools in different languages:
-https://hypothesis.works/articles/quickcheck-in-every-language/
+[Link to a list](https://hypothesis.works/articles/quickcheck-in-every-language/) of model-based testing tools in different languages
 
-The original model-based testing library QuickCheck in Haskell:
-http://www.cse.chalmers.se/~rjmh/QuickCheck/
+The original model-based testing library QuickCheck in Haskell can be found [here](http://www.cse.chalmers.se/~rjmh/QuickCheck/)
+
