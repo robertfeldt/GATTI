@@ -10,8 +10,9 @@ Hypothesis is a Python library for property-based testing developed by David R. 
   - Randomly generated test-cases, considering input specification
   - Tries to find test-cases that make the test fail
   - Failure case minimization 
-  - Handcrafted test-cases can be included explicitly
-  - Supports integration of e.g. pytest, unittest and Coverage 
+  - Handcrafted test-cases can be included explicitly as [@examples](https://hypothesis.readthedocs.io/en/latest/reproducing.html#hypothesis.example)
+  - Supports integration of e.g. [pytest](https://docs.pytest.org/en/latest/), [unittest](https://docs.python.org/3/library/unittest.html) and [coverage](https://pypi.org/project/coverage/) 
+  - [Health checks](https://hypothesis.readthedocs.io/en/latest/healthchecks.html)
 
 ## Pros
   - Test-case generation of many test-cases much faster than if manually designed
