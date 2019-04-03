@@ -7,13 +7,13 @@ Hypothesis is a Python library for property-based testing developed by David R. 
 
 ## Features
 (Add: Bullet points describing the main features of your tool, typically 4-7 bullets)
-..* Test high-level requirements (properties)
-..* automatic generation of test-cases, considering input specification
-..*
-..*
-..* Failure case minimization 
-..* handcrafted test cases can be explicitly included
-..* supports integration of pytest, unittest, Coverage 
+  - Test high-level requirements (properties)
+  - automatic generation of test-cases, considering input specification
+  - g
+  - g
+  - Failure case minimization 
+  - handcrafted test cases can be explicitly included
+  - supports integration of pytest, unittest, Coverage 
 
 ## Pros
 (Add: Bullet points describing the main benefits/pros of the tool, typically 3-5 bullets)
