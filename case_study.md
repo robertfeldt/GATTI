@@ -53,4 +53,37 @@ Link: https://github.com/pyca/cryptography/blob/master/LICENSE
   - Code can be found on [GitHub repository](https://github.com/pyca/cryptography)
 
 
-#Part 3 (didn't receive an answer yet) 
+# Part 3 (didn't receive an answer yet) 
+
+Dear David and support team,
+
+I'm a student at the University of Gothenburg. In the course Model based testing we are currently creating as an assignment an online inventory for software testing tools.
+
+The inventory can be found here, when finished: https://github.com/robertfeldt/GATTI
+
+I decided to add Hypothesis to the inventory. In the assignment we were asked to contact the developer of the chosen test tool and ask a couple of questions. I would appreciate it, if you could answer the following questions, although I could find answers for some of them on your readthedocs web side.
+
+
+1.1) What are your reasons for developing this testing tool? 
+
+1.2) Why did you choose property-based testing as main testing technology?
+
+1.3) What situations is your testing tool good for?
+
+1.4) What situations is it less good for?
+
+
+2) How mature do you think is Hypothesis? Is it suitable for use by companies developing real-world software at scale? Why / why not?
+
+
+3.1) How do you  plan to evolve and develop Hypothesis in future?
+
+3.2) What are the main improvements needed to take the tool to the next level?
+
+
+Thanks a lot in advance!
+
+
+Best regards,
+
+Ephraim
