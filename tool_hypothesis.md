@@ -27,7 +27,7 @@ Hypothesis is a Python library for property-based testing developed by David R. 
   - Programming knowhow needed to use the tool
 
 ## Required information / models
-Hypothesis is a black-box testing tool. So the tester doesn't has to have any knowledge about how the software under test is modeled in detail. The tester only has to know about the "correct" input to output mapping. To tell the test tool what "correct" means, the tester has to define the "correct" behaviour in form of logical statements (the properties) about the outputs. These properties should preferably hold for all possible input data. But it's also possible to tell the Hypothesis tests for which inputs it shouldn't throw an assertion (e.g for NaN).
+Hypothesis is a black-box testing tool. So the tester doesn't have to have any knowledge about how the software under test is modeled in detail. The tester only has to know about the "correct" input to output mapping. To tell the test tool what "correct" means, the tester has to define the "correct" behaviour in form of logical statements (the properties) about the outputs. These properties should preferably hold for all possible input data. But it's also possible to tell the Hypothesis tests for which inputs it shouldn't throw an assertion (e.g for NaN).
 
 ## Target platform and dependencies
 Hypothesis is a platform independet tool (tested on OS X, Windows and Linux) for usage in Python programming environments.
