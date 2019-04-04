@@ -50,4 +50,7 @@ Link: https://github.com/pyca/cryptography/blob/master/LICENSE
 
   - Documentation and tutorials can be found [here](https://cryptography.io/en/latest/)
 
-  - Code can be found on [GitHub repository](https://github.com/pyca/cryptography) 
+  - Code can be found on [GitHub repository](https://github.com/pyca/cryptography)
+
+
+#Part 3 (didn't receive an answer yet) 
