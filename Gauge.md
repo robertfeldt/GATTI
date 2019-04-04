@@ -1,21 +1,32 @@
 # Gauge
-
 The Gauge automated test framework is free and open-source, built as a modular suite for cross-platform testing.
 **Testing Approach:** It is built using a behavior driven approach to testing.
 **Testing Level:** It mainly targets the acceptance test level.
-**Target application domain:** 
+**Target application domain:** Web applications,
 
 ## Features
 (Add: Bullet points describing the main features of your tool, typically 4-7 bullets)
 
+- Tests are written in the Markdown language
+- Cross-platform
+- Extend with plugins
+- Compatible with several programming language
+- Behavior-driven testing, with support for data-driven testing
+
 ## Pros
 (Add: Bullet points describing the main benefits/pros of the tool, typically 3-5 bullets)
+
+- Tests are understandable by people who are not engineers.
 
 ## Cons
 (Add: Bullet points describing the main drawbacks/cons of the tool, typically 3-5 bullets)
 
+- No ability to write model-driven behavior tests
+
 ## Required information / models
 (Add: Describe which input information and/or models that the tool needs in order to work. What does a tester need to provide in order to run/use the tool?)
+
+As the tool is written using Markdown, there are no models used as input
 
 ## Target platform and dependencies
 (Add: Description of the target platform, language, and/or environment that the tool assumes or targets.)
@@ -25,11 +36,15 @@ The Gauge automated test framework is free and open-source, built as a modular s
 ## Updates
 (Add: A sentence or two about how well the tool is updated/maintained)
 
-**Latest update:** (Add date for latest update of the tool)
-**First release date:** (Add date for first commit or release of the tool)
+- **Latest update:** (Add date for latest update of the tool)
+- **First release date:**
+**_1.0.0;_** released on 18th June, 2018.
+**_0.0.1;_** released on 22nd May, 2014
 
 ## Licensing / Cost
 (Add: A few sentences describing the license model or the costs of buying or using the tool)
+
+Completely free and open source, according to the _GPL v3_ license.
 
 ## Tutorials and documentation
 (Add: Links to tutorials and documentation of the tool with one sentence description of each.)
@@ -40,11 +55,13 @@ The Gauge automated test framework is free and open-source, built as a modular s
 ## Alternative tools
 (Add: Link to a few alternative but related/similar tools that one could use instead of this tool for example to do similar testing for another target domain, language or environment.)
 
+Cucumber?
+
 ## Part 2
 
 I am currently doing an assignment in a course called "Model-driven testing" and am writing about gauge in a very basic manner. I have some questions I'd like to ask you, the team behind it:
 
-Q1. What are your reasons for developing Gauge in the first place and why did you settle on the particular technology you're using for Gauge? (Behaviour-driven testing or acceptance tests, using plugins etc)
+Q1. What are your reasons for developing Gauge in the first place and why did you settle on the particular technology you're using for Gauge? (Behavior-driven testing or acceptance tests, using plugins etc)
 
 This test is now reusable but not very readable because a programming language like Java adds syntax and OOP design noise like Classes, Objects, Methods, Variables etc.
 It is often hard to use these patterns. It breaks the flow of writing tests because one needs to design first and and then write the test case.
