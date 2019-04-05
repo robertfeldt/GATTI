@@ -61,7 +61,6 @@ There is at least one commit per day on the Jest Github. That means that the com
 
 ## Licensing / Cost
 
-
 Jest has an MIT license that you can find on GITHUB and the software  is totally free
 
 ## Tutorials and documentation
@@ -78,7 +77,6 @@ Tutorial:
 - https://jestjs.io/docs/en/tutorial-react
 
 ## Usage examples
-(Add: A few descriptions of how the tool has been used, ideally linking to libraries or software that actively is using the tool. Here you will also link to your "use case".)
 
 I find it interesting to look at open source projects on GitHub that were created by Facebook to show examples of Jest since it was also developed by Facebook. So the examples can reflect the good ways to use Jest.
 
@@ -88,7 +86,6 @@ Both project use Jest for Unit testing
 - https://github.com/facebook/Docusaurus
 
 ## Alternative tools
-(Add: Link to a few alternatives but related/similar tools that one could use instead of this tool, for example, to do similar testing for another target domain, language or environment.)
 
 These three tools have the same goal as Jest but achieve it with some differences depending on the software
 
