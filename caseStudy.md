@@ -1,4 +1,5 @@
-## Part 2. Case study - Find a software/lib that uses the testing tool (Jest)
+## Part 2. Case study -  Dasher [https://github.com/colebemis/dasher] uses the testing tool (Jest)
+
 
 **Q2.1. What is the purpose of the sw/lib, i.e. what does it aim to do for users/developers?**
 Dasher Create flexible dashboards with GitHub queries.
