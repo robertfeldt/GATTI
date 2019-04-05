@@ -57,7 +57,7 @@ There is at least one commit per day on the Jest Github. That means that the com
 
 **First release date:** 
 
-- May 14 2019
+- May 14 2015
 
 ## Licensing / Cost
 
